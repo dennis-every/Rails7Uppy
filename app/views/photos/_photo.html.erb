@@ -1,0 +1,5 @@
+<div id="<%= dom_id photo %>">
+    <% if photo.image.attached? %>
+        <%= image_tag photo.image, width: 280 %>
+    <% end %>
+</div>
